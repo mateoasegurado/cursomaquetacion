@@ -1,0 +1,223 @@
+main{
+    background-color: lightslategray;
+}
+
+/* Header*/
+
+header div{
+    height: 15rem;
+}
+.acercadeheader{
+    padding-top: 100px;
+    margin-top: 100px;
+}
+
+.indexheader{
+    margin-top: 100px;
+}
+
+.acercadeheader{
+    height: 300px;
+    background-color: grey;
+}
+
+/* Navbar */
+.navbar{
+    height: 100px;
+}
+.navbar-brand img{
+    width: 40px;
+    height: 40px;
+}
+
+.navbar-toggler i{
+    color: grey;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+@media (min-width: 768px){
+    .navbar-brand img{
+        width: 70px;
+        height: 70px;
+    }
+}
+
+/* Index */
+
+    /* Index llamada-accion */
+
+    #llamada-accion{
+        height: auto;
+    }
+
+    #llamada-accion .row div{
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .boton-accion a{
+        text-decoration: none;
+        color: black;
+    }
+
+
+
+
+
+/* Acerca de */
+    /* Tarjetas acercade*/
+
+    /* Imagen acercade */
+    .imagenglobo{
+        height: 10rem;
+        width: 10rem;
+        border-radius: 100%;
+    }
+
+    #saludo{
+        font-family: 'Cedarville Cursive', cursive;
+        font-size: 2rem;
+    }
+
+
+
+/* Acomodando alturas y anchos*/
+
+.cartas{
+    width: 18rem;
+}
+
+.cartas i{
+    font-size: 2rem;
+    color: lightseagreen ;
+}
+
+.cartaindex a{
+    align-items: center;
+}
+
+@media (min-width: 576px){
+    header div{
+        height: 25rem;
+    }
+}
+
+@media (min-width: 768px){
+    header div{
+        height: 35rem;
+    }
+}
+
+.acercadeheader h1{
+    font-size: 50px;
+}
+
+
+
+
+/* Galeria */
+
+.galeria h2{
+    text-align: center;
+
+    color: white;
+    padding: 2rem 0;
+}
+.item-galeria{
+    height: 10rem;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+}
+
+.hover-galeria{
+    background-color: rgba(1, 1, 1, 0.7);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: .2s;
+}
+
+.hover-galeria i{
+    color: white;
+    font-size: 30px;
+}
+
+.hover-galeria a{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+.item-galeria:hover .hover-galeria{
+    opacity: 1;
+    transition: .2s;
+}
+
+
+
+/* Footer */
+    #footer{
+        color: white;
+    }
+
+    #footer .iconos{
+        display: flex;
+        justify-content: center;
+    }
+
+    #footer .iconos a{
+        display: flex;
+        align-items: center;
+        font-size: 2rem;
+        padding: 5px;
+        text-decoration: none;
+        color: white;
+    }
+
+    .texto-footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    @media (min-width: 768px){
+        #footer .iconos a{
+            font-size: 3rem;
+            padding: 10px;
+        }
+    }
+
+/* Contacto */
+
+
+    /* Mensaje */
+#suscribirseboton{
+    display: flex;
+    justify-content: end;
+}
+
+    /*  Mapa */
+
+.map-container{
+    overflow:hidden;
+    padding-bottom:40%;
+    position:relative;
+    height:0;
+    }
+    .map-container iframe{
+    left:0;
+    top:0;
+    height:80%;
+    width:100%;
+    position:absolute;
+    }

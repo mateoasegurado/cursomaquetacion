@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acerca de</title>
+    <!-- Librerias CSS -->
+    <link rel="stylesheet" href="lib/bootstrap-4.5.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="lib/fontawesome/fontawesome-free-5.13.1-web/css/all.min.css">
+
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- fuentes -->
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navegacion-principal fixed-top bg-dark border-bottom">
+    <a class="navbar-brand" href="index.html"><img src="img/logo.jpg" class="img-thumbnail" alt=""></a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+    </button>
+  
+    <div class="collapse navbar-collapse bg-dark p-3" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Menu
+          </a>
+          <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="contacto.html">Contactanos</a>
+            <a class="dropdown-item" href="acercade.html">Conocemos!</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+</nav>
+
+    <header class="acercadeheader justify-content-center align-items-center">
+        <div>
+            <h1 class="text-center">ACERCA DE</h1>
+        </div>
+    </header>
+
+    <main>
+        <section class="introduccion">
+            <div class="container pt-3">
+                <div class="row">
+                    <div class="col-12 text-center col-sm-4 order-sm-2">
+                        <img class= "imagenglobo " src="img/hot-air-balloon-5390487_640.jpg" alt="">
+                    </div>
+
+                    <div class="col-12 col-sm-8 order-sm-1 text-white">
+                        <h3>Titulo</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum voluptatibus odio maxime aspernatur, ipsum eos accusamus quo soluta commodi? Incidunt sit earum consequuntur dolorum perferendis animi quisquam, eaque ut doloribus?</p>                        
+                        <div class="accordion " id="accordionExample">
+                            <div class="card bg-dark">
+                              <div class="card-header" id="headingOne">
+                                <h2 class="mb-0">
+                                  <button class="btn btn-secondary btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Mas información
+                                  </button>
+                                </h2>
+                              </div>
+                          
+                              <div id="collapseOne" class="collapse bg-dark" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                <div class="card-body">
+                                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+        <section id= "tarjetas">
+          <div class="container my-3">
+            <div class="row align-items-center justify-content-center">
+
+              <div class="col-12 col-sm-4">
+                <div class="card text-white bg-dark ">
+                  <div class="card-header">Header</div>
+                  <div class="card-body">
+                    <h5 class="card-title">Primary card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 col-sm-4">
+                <div class="card text-white bg-dark">
+                  <div class="card-header">Header</div>
+                  <div class="card-body">
+                    <h5 class="card-title">Other card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 col-sm-4">
+                <div class="card text-white bg-dark">
+                  <div class="card-header">Header</div>
+                  <div class="card-body">
+                    <h5 class="card-title">Success card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </section>
+
+        <section id="pop-up" class="bg-dark">
+            <div class="container pt-3 bg-dark">
+                <div class="row">
+                    <div class="col-6 text-white">
+                      <p id="saludo"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id nesciunt sed cumque unde quia, ratione molestias</p>
+                    </div>
+                    <div class="col-6 align-items-center justify-content-center d-flex">
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-secondary text-center" data-toggle="modal" data-target="#staticBackdrop">
+                            Terminos y condiciones
+                        </button>
+                        
+                        <!-- Modal -->
+                        <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                  <h5 class="modal-title" id="staticBackdropLabel">Acepto terminos y condiciones</h5>
+                                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                      <span aria-hidden="true">&times;</span>
+                                  </button>
+                                </div>
+                                <div class="modal-body">
+                                  <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus quas impedit, magni quaerat ab quisquam asperiores, reprehenderit aspernatur facilis aperiam dicta minima deserunt? Odit in repellendus labore fugit est odio!</p>
+                                </div>
+                                <form class="needs-validation modal-footer" novalidate>
+                                  <div class="form-group">
+                                    <div class="form-check">
+                                      <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                                      <label class="form-check-label" for="invalidCheck">
+                                       Aceptar los terminos y condiciones
+                                      </label>
+                                      <div class="invalid-feedback">
+                                        Debes aceptar los terminos para seguir.
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <button class="btn btn-primary" type="submit">Siguiente</button>
+                                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                                </form>
+                            </div>
+                            </div>
+                        </div>
+  
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <!-- Validacion de termino y condiciones -->
+    <script>
+      // Example starter JavaScript for disabling form submissions if there are invalid fields
+      (function() {
+        'use strict';
+        window.addEventListener('load', function() {
+          // Fetch all the forms we want to apply custom Bootstrap validation styles to
+          var forms = document.getElementsByClassName('needs-validation');
+          // Loop over them and prevent submission
+          var validation = Array.prototype.filter.call(forms, function(form) {
+            form.addEventListener('submit', function(event) {
+              if (form.checkValidity() === false) {
+                event.preventDefault();
+                event.stopPropagation();
+              }
+              form.classList.add('was-validated');
+            }, false);
+          });
+        }, false);
+      })();
+      </script>
+   <!-- Librerias JS -->
+   <script src="lib/jquery/jquery-3.5.1.min.js"></script>
+   <script src="lib/bootstrap-4.5.0-dist/js/bootstrap.bundle.min.js"></script>
+   <script src="js/script.js"></script>
+</body>
+</html>

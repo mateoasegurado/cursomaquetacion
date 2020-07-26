@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+        <!-- Librerias CSS -->
+    <link rel="stylesheet" href="lib/bootstrap-4.5.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="lib/fontawesome/fontawesome-free-5.13.1-web/css/all.min.css">
+    
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navegacion-principal fixed-top bg-dark border-bottom">
+        <a class="navbar-brand" href="index.html"><img src="img/logo.jpg" class="img-thumbnail" alt=""></a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+        </button>
+      
+        <div class="collapse navbar-collapse bg-dark p-3" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Menu
+              </a>
+              <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="contacto.html">Contactanos</a>
+                <a class="dropdown-item" href="acercade.html">Conocemos!</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+    </nav>
+
+    <header class="acercadeheader justify-content-center align-items-center">
+        <div class="mb-3">
+            <h1 class="text-center">CONTACTO</h1>
+        </div>
+    </header>
+
+    <main>
+        <section id="mensaje">
+            <div class="container py-4">
+                <form class="needs-validation my-4" novalidate id="form-newsletter">
+                    <div class="form-row">
+                      <div class="col-6 mb-2">
+                        <input type="text" class="form-control" placeholder="Nombre" required>
+                        <div class="invalid-feedback">Por favor, complete</div>
+                        <div class="valid-feedback">Genial!</div>
+                      </div>
+                      <div class="col-6 mb-2">
+                        <input type="text" class="form-control" placeholder="Apellido" required>
+                        <div class="invalid-feedback">Por favor, complete</div>
+                        <div class="valid-feedback">Genial!</div>
+                      </div>
+                      <div class="col-12 mb-2">
+                        <input type="email" class="form-control" name="email" placeholder="E-mail" required>
+                        <div class="invalid-feedback">Complete con un email válido</div>
+                      </div>
+                      <div class="col-6 mb-3">
+                        <label for="validationTooltip04">Sexo</label>
+                        <select class="custom-select" id="validationTooltip04" required>
+                          <option selected disabled value="">...</option>
+                          <option>Masculino</option>
+                          <option>Femenino</option>
+                          <option>Otro</option>
+                          <option>Prefiero no responder</option>
+                        </select>
+                        <div class="invalid-feedback">
+                          Por favor seleccione una opción
+                        </div>
+                      </div>
+                      <div class="col-6 mb-3">
+                        <div class="form-group">
+                            <label class="control-label" for="date">Fecha</label>
+                            <input class="form-control" id="date" name="date" placeholder="MM/DD/YYY" type="date" required>
+                            <div class="invalid-feedback">Seleccione una fecha válida</div>
+                        </div>
+                      </div>
+                      <div class="col-12 mb-3">
+                        <label for="validationTextarea">Mensaje</label>
+                        <textarea class="form-control" id="validationTextarea" placeholder="Escriba su mensaje aquí" required></textarea>
+                        <div class="invalid-feedback">
+                          Por favor escriba un mensaje
+                        </div>
+                      </div>
+                      <div class="form-group col-6">
+                        <div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheck1">
+                            <label class="form-check-label" for="gridCheck1">
+                              Deseo suscribirme al newsletter
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-6 mb-2" id="suscribirseboton">
+                        <button type="submit" class="btn btn-warning">Suscribirse</button>
+                      </div>
+                    </div>
+                  </form>
+            </div>
+
+        </section>
+
+        <section id="mapa">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col">
+                        <div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 500px">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d107126.67505686215!2d-60.69304160114447!3d-32.95870220504137!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b6539335d7d75b%3A0xec4086e90258a557!2sRosario%2C%20Santa%20Fe!5e0!3m2!1ses-419!2sar!4v1595806643215!5m2!1ses-419!2sar" frameborder="0"
+                              style="border:0" allowfullscreen></iframe>
+                          </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <section class="py-3 py-md-5 bg-dark" id="footer">
+          <div class="container">
+            <div class="row border">
+
+              <div class="col-12 col-sm-4 texto-footer">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero mollitia tempore, soluta.</p>
+              </div>
+
+              <div class="col-12 col-sm-4 iconos">
+                <a href="http://instagram.com"><i class="fab fa-instagram text-center"></i></a>
+                <a href="http://whatsapp.com"><i class="fab fa-whatsapp text-center"></i></a>
+                <a href="http://facebook.com"><i class="fab fa-facebook text-center"></i></a>
+              </div>
+              <div class="col-12 col-sm-4">
+                <div class="row p-3">
+                  <div class="col-12 col-sm-10">
+                    <h3 class="mb-3 text-white">Newsletter</h3>
+                    <form class="needs-validation" novalidate id="form-newsletter">
+                      <div class="form-row">
+                        <div class="col-12 mb-2">
+                          <input type="text" class="form-control" placeholder="Nombre" required>
+                          <div class="invalid-feedback">Por favor, complete</div>
+                          <div class="valid-feedback">Genial!</div>
+                        </div>
+                        <div class="col-12 mb-2">
+                          <input type="email" class="form-control" name="email" placeholder="E-mail" required>
+                          <div class="invalid-feedback">Complete email</div>
+                        </div>
+                        <div class="col-12 mb-2">
+                          <button type="submit" class="btn btn-warning">Suscribirse</button>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </section>
+      </footer>
+
+
+
+
+
+
+
+
+    <!-- Librerias JS -->
+    <script src="lib/jquery/jquery-3.5.1.min.js"></script>
+    <script src="lib/bootstrap-4.5.0-dist/js/bootstrap.bundle.min.js"></script>
+    
+    <script src="js/script.js"></script>
+    <script>
+    // Formulario mensaje
+        (function() {
+          'use strict';
+          window.addEventListener('load', function() {
+            // Fetch all the forms we want to apply custom Bootstrap validation styles to
+            var forms = document.getElementsByClassName('needs-validation');
+            // Loop over them and prevent submission
+            var validation = Array.prototype.filter.call(forms, function(form) {
+              form.addEventListener('submit', function(event) {
+                if (form.checkValidity() === false) {
+                  event.preventDefault();
+                  event.stopPropagation();
+                }
+                form.classList.add('was-validated');
+              }, false);
+            });
+          }, false);
+        })();
+        </script>
+</body>
+</html>
